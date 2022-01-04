@@ -1,0 +1,2 @@
+menu,h1 to h6 === font family - 'Montserrat', sans-serif !important;
+p ->font family 'Open Sans', sans-serif !important;
