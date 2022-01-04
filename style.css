@@ -29,7 +29,7 @@ p {
   padding: 0;
 }
 .pad-10{
-    padding: 10%;
+    padding: 10% 6%;
 }
 /* header css  */
 header {
@@ -71,7 +71,7 @@ header .menu-area .menu ul li a {
   text-transform: uppercase;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.5px;
   font-weight: 500;
 }
@@ -82,18 +82,18 @@ header .menu-area .menu ul li a {
     
 }
 .banner-area .banner-left {
-    width: 30%;
+    width: 45%;
 }
 .banner-area .banner-right {
-    width: 70%;
+    width: 55%;
 }
 .banner-area .banner-right .content-right {
     background-color: #f26149;
-    margin-top: 70px;
+    margin-top: 45px;
     padding: 60px;
     border: 5px solid #fff;
     outline: 15px solid #f26149;
-    
+    width: 500px;
     text-align: left;
 }
 .banner-area .banner-right h1 {
