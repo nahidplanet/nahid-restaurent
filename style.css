@@ -13,7 +13,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+
   font-size: 10px;
   letter-spacing: 0.5px;
   background-color: #a98e4e;
@@ -24,12 +24,31 @@ h3,
 h4,
 h5,
 h6,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
 p {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
-.pad-10{
-    padding: 10% 6%;
+
+.pad-10 {
+  padding: 10% 6%;
+}
+.button {
+  margin-top: 24px;
+  font-weight: 400;
+  color: #a68b4b;
+  font-size: 12px;
+  border: 1px solid #a68b4b;
+  border-radius: 23px;
+  padding: 10px 49px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
 }
 /* header css  */
 header {
@@ -78,23 +97,22 @@ header .menu-area .menu ul li a {
 
 /* banner section css  */
 .banner-area {
-    display: flex;
-    
+  display: flex;
 }
 .banner-area .banner-left {
-    width: 45%;
+  width: 45%;
 }
 .banner-area .banner-right {
-    width: 55%;
+  width: 55%;
 }
 .banner-area .banner-right .content-right {
-    background-color: #f26149;
-    margin-top: 45px;
-    padding: 60px;
-    border: 5px solid #fff;
-    outline: 15px solid #f26149;
-    width: 500px;
-    text-align: left;
+  background-color: #f26149;
+  margin-top: 45px;
+  padding: 60px;
+  border: 5px solid #fff;
+  outline: 15px solid #f26149;
+  width: 500px;
+  text-align: left;
 }
 .banner-area .banner-right h1 {
   font-size: 72px;
@@ -104,75 +122,225 @@ header .menu-area .menu ul li a {
   font-weight: 700;
 }
 .banner-area .banner-right p {
-    margin-top: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    color: #fff;
-    font-size: 18px;
+  margin-top: 24px;
+
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
 }
 .banner-area .banner-right a {
-    margin-top: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    color: #fff;
-    font-size: 12px;
-    border: 3px solid #fff;
-    border-radius: 5px;
-    padding: 10px 15px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
+  margin-top: 24px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 12px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* best food section css */
-.best-food-section{
-    display: flex;
+.best-food-section {
+  display: flex;
+  border-bottom: 0.5px solid #ddd;
 }
-.best-food-section .left-side{
-    width: 50%;
+.best-food-section .left-side {
+  width: 50%;
 }
-.best-food-section .left-side .image{
-    width: 462px;
-    height: 510px;
-    margin-right: 50px;
+.best-food-section .left-side .image {
+  width: 462px;
+  height: 510px;
+  margin-right: 50px;
 }
-.best-food-section .left-side .image img{
-    width: 100%;
-    height: 100%;
+.best-food-section .left-side .image img {
+  width: 100%;
+  height: 100%;
 }
-.best-food-section .right-side{
-    width: 50%;
+.best-food-section .right-side {
+  width: 50%;
 }
-.best-food-section .right-side h2{
-    font-size: 35px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    color: #4E2B1F;
-    margin-bottom: 24px;
-    margin-top: 55px;
+.best-food-section .right-side h2 {
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #4e2b1f;
+  margin-bottom: 24px;
+  margin-top: 55px;
 }
-.best-food-section .right-side h4{
-    font-size: 18px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    color: #707070;
-    margin-bottom: 24px;
+.best-food-section .right-side h4 {
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 24px;
 }
-.best-food-section .right-side p{
-    font-size: 15px;
-    font-family: "Open Sans", sans-serif;
-    color: #707070;
+.best-food-section .right-side p {
+  font-size: 15px;
+
+  color: #707070;
 }
-.best-food-section .right-side a{
-    margin-top: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    color: #A68B4B;
-    font-size: 12px;
-    border: 1px solid #A68B4B;
-    border-radius: 23px;
-    padding: 10px 49px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
+
+/* what time section css  */
+.what-time {
+  display: flex;
+}
+.what-time .open-time-card {
+  margin: 0 20px;
+  text-align: center;
+}
+.what-time .open-time-card .card-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.what-time .open-time-card .card-img img {
+  width: 100%;
+  height: 100%;
+}
+.what-time .open-time-card h3 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #282828;
+  margin: 20px 0px 3px;
+}
+.what-time .open-time-card p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #707070;
+}
+
+/* discover our tast section start  */
+
+.discover-our-tast {
+  display: flex;
+  background-color: #f7f5e7;
+  width: 100%;
+  height: 650px;
+}
+.discover-our-tast .discover-left {
+  width: 40%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.discover-our-tast .discover-left .discover-logo-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282828;
+  font-style: normal;
+  margin: 20px 0;
+}
+.discover-our-tast .discover-left h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #4e2b1f;
+  margin-bottom: 20px;
+}
+.discover-our-tast .discover-left .discover-details {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #707070;
+  font-style: normal;
+}
+.discover-our-tast .discover-left .discover-btn {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #fff;
+  font-style: normal;
+  background-color: #dbba6d;
+}
+.discover-our-tast .discover-right {
+  width: 60%;
+}
+.discover-our-tast .discover-right img {
+  width: 100%;
+  height: 100%;
+}
+
+/* mein menu section css  */
+
+.main-menu-area {
+  border-bottom:1px solid #ddd ;
+  background-image: url(./images/main-menu-bg-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .section-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 39px;
+  color: #4e2b1f;
+  text-align: center;
+}
+.section-title-details {
+  color: #707070;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px 132px;
+  text-align: center;
+}
+.main-menu-area .main-menu-item {
+  display: flex;
+  margin-bottom: 50px;
+}
+.main-menu-area .main-menu-item .main-menu-single-item {
+  width: 98px;
+  height: 80%;
+  margin: 50px;
+  text-align: center;
+}
+.main-menu-area .main-menu-single-item .icon img {
+  width: 100%;
+  height: 100%;
+}
+.main-menu-area .main-menu-single-item h3 {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #d0ae5e;
+}
+
+/* card price and details  */
+.price-details {
+  display: flex;
+}
+.price-details .price-details-left{
+margin-right: 25px;
+}
+.price-details .price-details-right{
+margin-left: 25px;
+}
+.price-details .sigle-card {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+.price-details .sigle-card .title-price {
+  color: #282828;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.price-details .sigle-card .title-price .price {
+  margin-left: auto;
+  
+}
+.price-details .sigle-card .card-details {
+  margin-bottom: 20px;
+  color: #707070;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }
