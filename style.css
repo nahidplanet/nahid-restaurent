@@ -344,3 +344,27 @@ margin-left: 25px;
   line-height: 24px;
   font-weight: 400;
 }
+
+/* food gellery section start  */
+.food-gallery{
+  padding: 10% 0;
+}
+.food-gallery .section-title{
+  padding: 0 10%;
+}
+.food-gallery .section-title-details{
+  padding: 0 10%;
+  margin-bottom: 50px;
+}
+.food-gallery .photo-gallery{
+  display: flex;
+}
+.food-gallery .photo-gallery .single-photo{
+  width: 25%;
+}
+.food-gallery .photo-gallery .single-photo img{
+  width: 100%;
+  height: 100%;
+}
+
+/* food gellery section end  */
