@@ -6,7 +6,9 @@ body {
   outline: 0;
   box-sizing: border-box;
 }
-
+section{
+  border-bottom: 1px solid #ddd;
+}
 #book-now-btn {
   padding: 10px 20px;
   display: inline-block;
@@ -36,7 +38,7 @@ p {
 }
 
 .pad-10 {
-  padding: 10% 6%;
+  padding: 8% 6%;
 }
 .button {
   margin-top: 24px;
@@ -267,13 +269,13 @@ header .menu-area .menu ul li a {
 /* mein menu section css  */
 
 .main-menu-area {
-  border-bottom:1px solid #ddd ;
+  border-bottom: 1px solid #ddd;
   background-image: url(./images/main-menu-bg-banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
- .section-title {
+.section-title {
   font-weight: 700;
   font-size: 35px;
   line-height: 39px;
@@ -314,11 +316,11 @@ header .menu-area .menu ul li a {
 .price-details {
   display: flex;
 }
-.price-details .price-details-left{
-margin-right: 25px;
+.price-details .price-details-left {
+  margin-right: 25px;
 }
-.price-details .price-details-right{
-margin-left: 25px;
+.price-details .price-details-right {
+  margin-left: 25px;
 }
 .price-details .sigle-card {
   border-bottom: 1px solid #ddd;
@@ -331,11 +333,10 @@ margin-left: 25px;
   display: flex;
   margin-bottom: 10px;
   font-weight: 600;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 .price-details .sigle-card .title-price .price {
   margin-left: auto;
-  
 }
 .price-details .sigle-card .card-details {
   margin-bottom: 20px;
@@ -346,25 +347,72 @@ margin-left: 25px;
 }
 
 /* food gellery section start  */
-.food-gallery{
+.food-gallery {
   padding: 10% 0;
 }
-.food-gallery .section-title{
+.food-gallery .section-title {
   padding: 0 10%;
 }
-.food-gallery .section-title-details{
+.food-gallery .section-title-details {
   padding: 0 10%;
   margin-bottom: 50px;
 }
-.food-gallery .photo-gallery{
+.food-gallery .photo-gallery {
   display: flex;
 }
-.food-gallery .photo-gallery .single-photo{
+.food-gallery .photo-gallery .single-photo {
   width: 25%;
 }
-.food-gallery .photo-gallery .single-photo img{
+.food-gallery .photo-gallery .single-photo img {
   width: 100%;
   height: 100%;
 }
 
 /* food gellery section end  */
+.meet-chef-section .container {
+  background-color: #f7f5e7;
+  display: flex;
+  margin-top: 50px;
+}
+.meet-chef-section .meet-chef-section-left {
+  width: 50%;
+  padding: 7%;
+  box-sizing: border-box;
+}
+.meet-chef-section .meet-chef-section-left h3 {
+  color: #707070;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.meet-chef-section .meet-chef-section-left h4 {
+  color: #848484;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.meet-chef-section .meet-chef-section-left p {
+  color: #282828;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.meet-chef-section .meet-chef-section-left .signeture-img {
+  width: 310px;
+  height: 45px;
+  margin-top: 30px;
+}
+.meet-chef-section .meet-chef-section-left .signeture-img img {
+  width: 100%;
+  height: 100%;
+}
+.meet-chef-section .meet-chef-section-right {
+  width: 50%;
+}
+.meet-chef-section .meet-chef-section-right img{
+  width: 100%;
+  height: 100%;
+}
+
+/* meet chef section end  */
