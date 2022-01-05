@@ -6,7 +6,7 @@ body {
   outline: 0;
   box-sizing: border-box;
 }
-section{
+section {
   border-bottom: 1px solid #ddd;
 }
 #book-now-btn {
@@ -51,6 +51,22 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 39px;
+  color: #4e2b1f;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title-details {
+  color: #707070;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px 132px;
+  text-align: center;
 }
 /* header css  */
 header {
@@ -275,21 +291,7 @@ header .menu-area .menu ul li a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.section-title {
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 39px;
-  color: #4e2b1f;
-  text-align: center;
-}
-.section-title-details {
-  color: #707070;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  margin: 20px 132px;
-  text-align: center;
-}
+
 .main-menu-area .main-menu-item {
   display: flex;
   margin-bottom: 50px;
@@ -410,9 +412,116 @@ header .menu-area .menu ul li a {
 .meet-chef-section .meet-chef-section-right {
   width: 50%;
 }
-.meet-chef-section .meet-chef-section-right img{
+.meet-chef-section .meet-chef-section-right img {
   width: 100%;
   height: 100%;
 }
 
 /* meet chef section end  */
+
+/* body banner section start  */
+
+.body-banner {
+  background-image: url(./images/body-benner-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 15% 8%;
+  text-align: center;
+}
+.body-banner .body-banner-text h1 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #fff;
+}
+.body-banner .body-banner-text a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #a68b4b;
+}
+
+/* banner section end  */
+
+/* blog section start  */
+
+.blog-section .main-menu-item {
+  display: flex;
+}
+.blog-section .main-menu-item .post-blog {
+  width: 34%;
+  margin: 20px;
+}
+.blog-section .main-menu-item .post-blog h3 {
+  color: #282828;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.blog-section .main-menu-item .post-blog p {
+  color: #707070;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.blog-section .main-menu-single-item img {
+  width: 100%;
+  height: 100%;
+}
+/* blog section end  */
+
+/* <!-- service section start  --> */
+.service-section {
+  padding: 8% 0;
+}
+.service-section .section-title,
+.service-section .section-title-details {
+  padding: 0 10%;
+  margin-bottom: 50px;
+}
+.service-section .service-container {
+  background-image: url(./images/service-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.servive-section .container {
+  display: flex;
+}
+.service-container .container-left {
+  width: 40%;
+  background-color: #f7f5e7;
+  margin-left: 15%;
+  padding: 4%;
+  box-sizing: border-box;
+  padding: 6% 4%;
+}
+.service-container .container-left h1 {
+  color: #4e2b1f;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.service-container .container-left h4 {
+  color: #282828;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif !important;
+  margin-top: 50px;
+}
+.service-container .container-left p {
+  color: #707070;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+.service-container .container-left a {
+  background-color: #a68b4b;
+  color: #fff;
+}
+/* <!-- service section end  --> */
